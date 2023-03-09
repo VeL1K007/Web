@@ -147,6 +147,14 @@
             white-space: nowrap;
             -webkit-overflow-scrolling: touch;
         }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
     </style><style class="darkreader darkreader--sync" media="screen"></style>
 
 
@@ -446,11 +454,13 @@
             <a href="/VRHeadSet" class="btn btn-lg btn-light fw-bold border-white bg-white">Актуальные VR шлемы</a>
 
         </p>
+        <img src="https://dprom.online/wp-content/uploads/2022/09/grlp.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="рр" width="600" height="600" loading="lazy">
     </main>
 
-    <footer class="mt-auto text-white-50">
+
+    <div class="footer">
         <p>Сделал Вилен Барсуков</p>
-    </footer>
+    </div>
 </div>
 
 
